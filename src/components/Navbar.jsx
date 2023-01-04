@@ -3,13 +3,15 @@ import {FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import {Link} from 'react-scroll'
+import {Document} from 'react-pdf'
+import resume from '../assets/Resume.pdf';
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
     const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#2F4858] text-gray-300">
 
         {/* menu */}
         <ul className="hidden md:flex">
@@ -45,7 +47,7 @@ const Navbar = () => {
         </div>
 
         {/* mobile menu */}
-        <ul className={!nav ? 'hidden' : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"}>
+        <ul className={!nav ? 'hidden' : "absolute top-0 left-0 w-full h-screen bg-[#0089BA] flex flex-col justify-center items-center"}>
             <li className="py-6 text-4xl">
                 <Link onClick={handleClick} to="home" smooth={true}  duration={500} >
                     Home
@@ -86,13 +88,13 @@ const Navbar = () => {
                         GitHub <FaGithub size={30}/>
                     </a>
                 </li>
-                <li className="w-[160px] h-[60px] flex justify justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-red-500">
-                    <a className="flex justify-between items-center w-full text-gray-300" href="https://github.com/kblanco2000?tab=repositories">
+                {/* <li className="w-[160px] h-[60px] flex justify justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-red-500">
+                    <a className="flex justify-between items-center w-full text-gray-300" href="/">
                         Email <HiOutlineMail size={30}/>
                     </a>
-                </li>
+                </li> */}
                 <li className="w-[160px] h-[60px] flex justify justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-green-800">
-                    <a className="flex justify-between items-center w-full text-gray-300" href="https://github.com/kblanco2000?tab=repositories">
+                    <a className="flex justify-between items-center w-full text-gray-300" href="/Users/kyleblanco/Desktop/portfolio-react-app/src/assets/Resume.pdf" download>
                         Resume <BsFillPersonLinesFill size={30}/>
                     </a>
                 </li>

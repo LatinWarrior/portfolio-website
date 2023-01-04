@@ -4,10 +4,10 @@ import management from '../assets/management.jpeg'
 
 const Work = () => {
   return (
-    <div name='work' className='w-full md:h-screen text-gray-300 bg-[#0a192f]'>
+    <div name='work' className='w-full md:h-screen text-gray-300 bg-[#2F4858]'>
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
-                <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600'>Projects</p>
+                <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-[#810035]'>Projects</p>
                 <p className='py-6'>Work experience below</p>
             </div>
 
@@ -26,7 +26,7 @@ const Work = () => {
                             <a href="https://pos-group-14.onrender.com/">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href="/">
+                            <a href="https://github.tamu.edu/petercastelein/project3/releases/tag/V0.03">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>
@@ -45,7 +45,7 @@ const Work = () => {
                             <a href="/">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href="/">
+                            <a href="https://github.com/Summer22-CSCE-310-Database-Systems/sprint-1-real-mgmt">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>
