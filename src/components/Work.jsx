@@ -8,7 +8,7 @@ const Work = () => {
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-[#810035]'>Projects</p>
-                <p className='py-6'>Some projects are internal to Texas A&M so they might not be able to be viewed for academic dishonest purposes.</p>
+                <p className='py-6'>Some projects are internal to Texas A&M so they might not be able to be viewed externally.</p>
             </div>
 
             {/* Container */}
@@ -23,10 +23,10 @@ const Work = () => {
                             Point of Sale System (Full Stack Application)
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="https://pos-group-14.onrender.com/">
+                            <a href="https://pos-group-14.onrender.com/" target="_blank" rel='noreferrer'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href="https://github.tamu.edu/petercastelein/project3">
+                            <a href="https://github.tamu.edu/petercastelein/project3" target="_blank" rel='noreferrer'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>
@@ -42,10 +42,10 @@ const Work = () => {
                             Website for Property Managers (Full Stack Application)
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="/">
+                            <a href="http://3.17.248.106:3000/" target="_blank" rel='noreferrer'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href="https://github.com/Summer22-CSCE-310-Database-Systems/sprint-1-real-mgmt">
+                            <a href="https://github.com/Summer22-CSCE-310-Database-Systems/sprint-1-real-mgmt" target="_blank" rel='noreferrer'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>
